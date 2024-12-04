@@ -1,12 +1,13 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
-import bg from '../assets/back_church.jpg'
+import bg from '../wbg.jpg'
 
 const Home = () => {
   return (
     <section 
       className="pt-[8rem] flex justify-center items-center  pb-[9rem] bg-cover bg-center bg-no-repeat"
       style={{
+        backgroundColor: 'black',
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
