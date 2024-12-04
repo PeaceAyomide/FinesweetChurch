@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'RobotoCondensed', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('./font/static/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
