@@ -1,4 +1,5 @@
 {
+    "_comment": "This is a comment explaining the rewrites configuration",
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
     ]
